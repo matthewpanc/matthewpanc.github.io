@@ -25,6 +25,14 @@
     <div id="info">
       
       <br>
+      <br>
+      <p class = "Center" style="font-size: 30px;">
+        Key: red = the current key, orange = what is currently being compared to 
+        the key, white = the bar being compared to the key has been shifted forewards to that location, 
+        blue = the final location of the key that was being used
+      </p>
+
+      <br>
       <header><u>How does insertion sort work?</u></header>
       <p>
         Insertion sort works by looping through every value (except for the first). It then compares it to the value in the previous index. If it is greater than the key, the index after the index of the current value is set to the current value, and then goes back up to the step where it compares it to the value of the previous index (now it is comparing the key to the value in the index before the index it was just using). It repeats that until it either reaches the lowest index (index 0 since list’s indexes start at 0) or it finds an index whose value is lower than the key: it then goes back to the first step. Once it reaches the final value the algorithm is done.
