@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html  style="background-color: rgb(240,240,240);">
+  <head>
+    <title>Insertion Sort</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../PersonalProjectLogo.png" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="../Sortings.css">
+    <meta charset="utf-8" />
+
+    <header class="Center" style="font-size: 100px;">Insertion Sort</header>
+
+  </head>
+  <body style="margin-bottom: 3%;">
+
+    <script src="Insertion.js" style="padding: 100px;"></script>
+
+    <ul class="Nav Center">
+        <li><a href="../SelectionSort/Selection.html">SelectionSort</a></li>
+        <li><a href="../Home.html">Home</a></li>
+        <li><a href="../BubbleSort/Bubble.html">BubbleSort</a></li>
+    </ul>
+
+    <div class="Spacing"></div>
+
+    <div id="info">
+      
+      <br>
+      <header><u>How does insertion sort work?</u></header>
+      <p>
+        Insertion sort works by looping through every value (except for the first). It then compares it to the value in the previous index. If it is greater than the key, the index after the index of the current value is set to the current value, and then goes back up to the step where it compares it to the value of the previous index (now it is comparing the key to the value in the index before the index it was just using). It repeats that until it either reaches the lowest index (index 0 since list’s indexes start at 0) or it finds an index whose value is lower than the key: it then goes back to the first step. Once it reaches the final value the algorithm is done.
+      </p>
+
+    </div>
+
+  </body>
+</html>
